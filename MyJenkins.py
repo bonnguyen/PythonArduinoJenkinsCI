@@ -7,11 +7,11 @@ import sys
 
 # Configurations
 ping_server = 30
-jenkins_username = 'dev_ops__'
-jenkins_apitoken = 'e09592116b63e92c31972cebb0eedfe9'
-jenkins_host = "devops.com.vn"
-jenkins_port = "8082"
-jenkins_jobs = ["MyJenkinsBackEnd"]
+jenkins_username = ''
+jenkins_apitoken = ''
+jenkins_host = ""
+jenkins_port = ""
+jenkins_jobs = [""]
 # ser = serial.Serial('COM3', 9600)
 ser = serial.Serial('/dev/cu.usbmodem1411', 9600)
 # Arduino Configuration
